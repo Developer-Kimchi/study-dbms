@@ -22,9 +22,10 @@ RDBMS(관계형 데이터베이스 시스템)
    테이블끼리 서로 관계를 맺는다.
 
 --------------------------------------------------------------------------------------
-Table A(User, Member, Group)      TableB(Order, Product, Market, Sales, Goods)
 
-번호(PK)   이름   나이   아이디      주문번호(PK)   번호(FK)   날짜      상품수량
+     Table A(User, Member, Group)      TableB(Order, Product, Market, Sales, Goods)
+
+    번호(PK)   이름   나이   아이디      주문번호(PK)   번호(FK)   날짜      상품수량
 
 	1       손진혁   20   sjh1234     20230201001        2   	 2023-02-01    10
 	
